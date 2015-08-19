@@ -1,8 +1,6 @@
 migrants-to-people
 =============
 
-![](logo.png)
-
 Chrome extension that replaces occurrences of 'migrant' with 'desperate and terrified person'.
 
 Forked from [cloud-to-butt](https://github.com/panicsteve/cloud-to-butt).
