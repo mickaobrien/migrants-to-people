@@ -3,6 +3,8 @@
 	"name": "Migrants to People",
 	"version": "1.0",
 	"description": "Replaces the text 'migrant' with 'desperate and terrified person'.",
+    "icons": { "48": "icon48.png",
+               "128": "icon128.png" },
 	"content_scripts": 
 	[
 		{
