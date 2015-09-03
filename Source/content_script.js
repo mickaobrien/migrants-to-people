@@ -31,6 +31,8 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
+	v = v.replace(/\bMigrant (women|woman|men|man|child|children)\b/g, "Desperate and terrified $1");
+	v = v.replace(/\bmigrant (women|woman|men|man|child|children)\b/g, "desperate and terrified $1");
 	v = v.replace(/\bMigrants\b/g, "Desperate and terrified people");
 	v = v.replace(/\bmigrants\b/g, "desperate and terrified people");
 	v = v.replace(/\bMigrant\b/g, "Desperate and terrified person");
